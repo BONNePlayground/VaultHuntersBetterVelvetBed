@@ -1,0 +1,14 @@
+{
+  "package": "lv.id.bonne.vaulthunters.bettervelvetbed.vaulthunters.mixin",
+  "refmap": "mixins.vault_hunters_better_velvet_bed.refmap.json",
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_17",
+  "plugin": "lv.id.bonne.vaulthunters.bettervelvetbed.vaulthunters.VaultHuntersIntegrationModConfiguration",
+  "mixins": [
+    "MixinBedBlock",
+    "MixinPlayer",
+    "MixinPlayerList",
+    "MixinServerPlayer",
+    "MixinVelvetBed"
+  ]
+}
